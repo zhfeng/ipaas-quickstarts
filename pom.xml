@@ -387,19 +387,19 @@
      <dependency>
         <groupId>io.fabric8.quickstarts</groupId>
         <artifactId>spring-boot-camel-xml</artifactId>
-        <version>${spring-boot-camel-rest-3scale.version}</version>
+        <version>${spring-boot-camel-xml.version}</version>
         <scope>test</scope>
       </dependency>
 
      <dependency>
-        <groupId>io.fabric8.quickstarts</groupId>
+        <groupId>io.fabric8.quickstarts.cxf.jaxrs</groupId>
         <artifactId>spring-boot-cxf-jaxrs</artifactId>
         <version>${spring-boot-cxf-jaxrs.version}</version>
         <scope>test</scope>
       </dependency>
 
      <dependency>
-        <groupId>io.fabric8.quickstarts</groupId>
+        <groupId>io.fabric8.quickstarts.cxf.jaxws</groupId>
         <artifactId>spring-boot-cxf-jaxws</artifactId>
         <version>${spring-boot-cxf-jaxws.version}</version>
         <scope>test</scope>
