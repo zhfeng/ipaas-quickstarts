@@ -26,7 +26,7 @@
 
   <groupId>io.fabric8.quickstarts</groupId>
   <artifactId>ipaas-quickstarts</artifactId>
-  <version>2.2-SNAPSHOT</version>
+  <version>2.2.0.fuse-sb2-760020</version>
   <packaging>pom</packaging>
 
   <name>Fabric8 Quickstarts</name>
@@ -86,21 +86,21 @@
     <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
     <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
     <junit.version>4.12</junit.version>
-    <fuse.bom.version>7.6.0.fuse-sb2-760012</fuse.bom.version>
-    <fabric8.version>3.0.11.fuse-sb2-760013</fabric8.version>
+    <fuse.bom.version>7.6.0.fuse-sb2-760015</fuse.bom.version>
+    <fabric8.version>3.0.11.fuse-sb2-760016</fabric8.version>
     <fabric8.release.version>${fabric8.version}</fabric8.release.version>
 
     <quickstarts.url.base>https://github.com/fabric8-quickstarts</quickstarts.url.base>
-    <spring-boot-camel.version>1.0.0.fuse-750023</spring-boot-camel.version>
-    <spring-boot-camel-amq.version>1.0.0.fuse-750022</spring-boot-camel-amq.version>
+    <spring-boot-camel.version>7.6.0.fuse-sb2-760020</spring-boot-camel.version>
+    <spring-boot-camel-amq.version>7.6.0.fuse-sb2-760020</spring-boot-camel-amq.version>
     <spring-boot-camel-config.version>1.0.0.fuse-750022</spring-boot-camel-config.version>
-    <spring-boot-camel-drools.version>1.0.0.fuse-750019</spring-boot-camel-drools.version>
-    <spring-boot-camel-infinispan.version>1.0.0.fuse-750020</spring-boot-camel-infinispan.version>
-    <spring-boot-camel-rest-sql.version>1.0.0.fuse-750019</spring-boot-camel-rest-sql.version>
-    <spring-boot-camel-rest-3scale.version>1.0.0.fuse-750019</spring-boot-camel-rest-3scale.version>
-    <spring-boot-camel-xml.version>1.0.0.fuse-750019</spring-boot-camel-xml.version>
-    <spring-boot-cxf-jaxrs.version>1.0.0.fuse-750019</spring-boot-cxf-jaxrs.version>
-    <spring-boot-cxf-jaxws.version>1.0.0.fuse-750019</spring-boot-cxf-jaxws.version>
+    <spring-boot-camel-drools.version>7.6.0.fuse-sb2-760020</spring-boot-camel-drools.version>
+    <spring-boot-camel-infinispan.version>7.6.0.fuse-sb2-760020</spring-boot-camel-infinispan.version>
+    <spring-boot-camel-rest-sql.version>7.6.0.fuse-sb2-760020</spring-boot-camel-rest-sql.version>
+    <spring-boot-camel-rest-3scale.version>7.6.0.fuse-sb2-760020</spring-boot-camel-rest-3scale.version>
+    <spring-boot-camel-xml.version>7.6.0.fuse-sb2-760020</spring-boot-camel-xml.version>
+    <spring-boot-cxf-jaxrs.version>7.6.0.fuse-sb2-760020</spring-boot-cxf-jaxrs.version>
+    <spring-boot-cxf-jaxws.version>7.6.0.fuse-sb2-760020</spring-boot-cxf-jaxws.version>
 
     <maven.enforcer.plugin.version>1.4.1</maven.enforcer.plugin.version>
 
@@ -409,7 +409,7 @@
     <profile>
       <id>fabric8-snapshot</id>
       <properties>
-        <fabric8.version>2.2-SNAPSHOT</fabric8.version>
+        <fabric8.version>3.0.11.fuse-sb2-760016</fabric8.version>
       </properties>
     </profile>
     <profile>
