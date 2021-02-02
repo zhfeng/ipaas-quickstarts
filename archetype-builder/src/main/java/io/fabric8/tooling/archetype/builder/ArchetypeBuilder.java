@@ -53,6 +53,7 @@ public class ArchetypeBuilder extends AbstractBuilder{
     private static final Set<String> sourceFileNames = new HashSet<String>(Arrays.asList("application.properties"));
 
     private static final Set<String> sourceFileExtensions = new HashSet<String>(Arrays.asList(
+        "adoc",
         "bpmn",
         "csv",
         "drl",
