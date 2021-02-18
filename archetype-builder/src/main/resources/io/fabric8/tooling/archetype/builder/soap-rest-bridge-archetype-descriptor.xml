@@ -107,6 +107,7 @@
         <include>*.go</include>
         <include>*.yml</include>
         <include>*.md</include>
+        <include>*.adoc</include>
         <include>*.txt</include>
         <include>*.json</include>
       </includes>
